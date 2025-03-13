@@ -3574,3 +3574,75 @@ ValueError: Target scores need to be probabilities for multiclass roc_auc, i.e. 
 2025-03-13 11:23:50,225:INFO:Scoring test/hold-out set
 2025-03-13 11:23:50,624:INFO:Visual Rendered Successfully
 2025-03-13 11:23:50,692:INFO:plot_model() successfully completed......................................
+2025-03-13 11:29:04,954:INFO:Initializing plot_model()
+2025-03-13 11:29:04,955:INFO:plot_model(plot=tree, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), verbose=False, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     monotonic_cst=None, n_estimators=100, n_jobs=-1,
+                     oob_score=False, random_state=42, verbose=0,
+                     warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021493DB0130>, system=True)
+2025-03-13 11:29:04,955:INFO:Checking exceptions
+2025-03-13 11:29:04,985:INFO:Preloading libraries
+2025-03-13 11:29:05,132:INFO:Copying training dataset
+2025-03-13 11:29:05,132:INFO:Plot type: tree
+2025-03-13 11:29:06,035:INFO:Plotting decision trees
+2025-03-13 11:29:06,063:INFO:Plotting tree 0
+2025-03-13 11:29:17,757:INFO:Initializing plot_model()
+2025-03-13 11:29:17,757:INFO:plot_model(plot=confusion_matrix, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), verbose=False, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     monotonic_cst=None, n_estimators=100, n_jobs=-1,
+                     oob_score=False, random_state=42, verbose=0,
+                     warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021493DB0130>, system=True)
+2025-03-13 11:29:17,757:INFO:Checking exceptions
+2025-03-13 11:29:17,786:INFO:Preloading libraries
+2025-03-13 11:29:17,937:INFO:Copying training dataset
+2025-03-13 11:29:17,937:INFO:Plot type: confusion_matrix
+2025-03-13 11:29:18,054:INFO:Fitting Model
+2025-03-13 11:29:18,054:WARNING:c:\Users\Asus\anaconda3\envs\RUL\lib\site-packages\sklearn\base.py:493: UserWarning: X does not have valid feature names, but ExtraTreesClassifier was fitted with feature names
+  warnings.warn(
+
+2025-03-13 11:29:18,055:INFO:Scoring test/hold-out set
+2025-03-13 11:29:18,410:INFO:Visual Rendered Successfully
+2025-03-13 11:29:18,609:INFO:plot_model() successfully completed......................................
+2025-03-13 11:29:20,489:INFO:Initializing plot_model()
+2025-03-13 11:29:20,489:INFO:plot_model(plot=pr, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), verbose=False, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     monotonic_cst=None, n_estimators=100, n_jobs=-1,
+                     oob_score=False, random_state=42, verbose=0,
+                     warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021493DB0130>, system=True)
+2025-03-13 11:29:20,489:INFO:Checking exceptions
+2025-03-13 11:29:20,526:INFO:Preloading libraries
+2025-03-13 11:29:20,661:INFO:Copying training dataset
+2025-03-13 11:29:20,661:INFO:Plot type: pr
+2025-03-13 11:29:20,761:INFO:Fitting Model
+2025-03-13 11:29:23,245:INFO:Scoring test/hold-out set
+2025-03-13 11:29:24,469:INFO:Visual Rendered Successfully
+2025-03-13 11:29:24,666:INFO:plot_model() successfully completed......................................
+2025-03-13 11:29:24,757:INFO:Initializing plot_model()
+2025-03-13 11:29:24,757:INFO:plot_model(plot=auc, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), verbose=False, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     monotonic_cst=None, n_estimators=100, n_jobs=-1,
+                     oob_score=False, random_state=42, verbose=0,
+                     warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021493DB0130>, system=True)
+2025-03-13 11:29:24,757:INFO:Checking exceptions
+2025-03-13 11:29:24,788:INFO:Preloading libraries
+2025-03-13 11:29:24,927:INFO:Copying training dataset
+2025-03-13 11:29:24,928:INFO:Plot type: auc
+2025-03-13 11:29:25,019:INFO:Fitting Model
+2025-03-13 11:29:25,020:WARNING:c:\Users\Asus\anaconda3\envs\RUL\lib\site-packages\sklearn\base.py:493: UserWarning: X does not have valid feature names, but ExtraTreesClassifier was fitted with feature names
+  warnings.warn(
+
+2025-03-13 11:29:25,021:INFO:Scoring test/hold-out set
+2025-03-13 11:29:25,323:INFO:Visual Rendered Successfully
+2025-03-13 11:29:25,507:INFO:plot_model() successfully completed......................................
