@@ -1,0 +1,49 @@
+2025-03-14 15:21:43,557:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-03-14 15:21:43,557:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-03-14 15:21:43,557:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-03-14 15:21:43,558:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-03-14 15:25:36,906:WARNING:/home/rahmat/.conda/envs/api_rul/lib/python3.11/site-packages/IPython/core/pylabtools.py:170: UserWarning:
+
+Creating legend with loc="best" can be slow with large amounts of data.
+
+
+2025-03-14 15:27:35,041:WARNING:/home/rahmat/.conda/envs/api_rul/lib/python3.11/site-packages/IPython/core/pylabtools.py:170: UserWarning:
+
+Creating legend with loc="best" can be slow with large amounts of data.
+
+
+2025-03-14 15:30:40,231:WARNING:/home/rahmat/.conda/envs/api_rul/lib/python3.11/site-packages/IPython/core/pylabtools.py:170: UserWarning:
+
+Creating legend with loc="best" can be slow with large amounts of data.
+
+
+2025-03-14 15:35:51,920:WARNING:/home/rahmat/.conda/envs/api_rul/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning:
+
+lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+
+
+2025-03-14 15:35:52,161:WARNING:/home/rahmat/.conda/envs/api_rul/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning:
+
+Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+
+
+2025-03-14 15:35:52,471:WARNING:/home/rahmat/.conda/envs/api_rul/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning:
+
+Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+
+
+2025-03-14 15:35:52,595:WARNING:/home/rahmat/.conda/envs/api_rul/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning:
+
+Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+
+

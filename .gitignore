@@ -1,3 +1,5 @@
 # Ignore all CSV files in any directory
 **/*.csv
 *.pkl
+/dataset
+.qodo
