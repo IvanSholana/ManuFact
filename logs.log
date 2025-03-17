@@ -41748,3 +41748,125 @@ ValueError: Target scores need to be probabilities for multiclass roc_auc, i.e. 
 2025-03-17 14:42:28,143:INFO:Preloading libraries
 2025-03-17 14:42:28,145:INFO:Set up data.
 2025-03-17 14:42:28,159:INFO:Set up index.
+2025-03-17 14:58:41,744:INFO:Initializing load_model()
+2025-03-17 14:58:41,744:INFO:load_model(model_name=final_lithology_model_2, platform=None, authentication=None, verbose=True)
+2025-03-17 14:58:42,487:INFO:Initializing predict_model()
+2025-03-17 14:58:42,487:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000019913C692B0>, estimator=Pipeline(memory=FastMemory(location=C:\Users\Asus\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['X_LOC', 'Y_LOC', 'DEPT', 'NPHI',
+                                             'DTC', 'RHOB', 'GR', 'CALI'],
+                                    transformer=SimpleImputer(add_indicator=False...
+                 ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0,
+                                      class_weight=None, criterion='gini',
+                                      max_depth=None, max_features='sqrt',
+                                      max_leaf_nodes=None, max_samples=None,
+                                      min_impurity_decrease=0.0,
+                                      min_samples_leaf=1, min_samples_split=2,
+                                      min_weight_fraction_leaf=0.0,
+                                      monotonic_cst=None, n_estimators=100,
+                                      n_jobs=-1, oob_score=False,
+                                      random_state=42, verbose=0,
+                                      warm_start=False))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000019CF105F1F0>)
+2025-03-17 14:58:42,487:INFO:Checking exceptions
+2025-03-17 14:58:42,487:INFO:Preloading libraries
+2025-03-17 14:58:42,489:INFO:Set up data.
+2025-03-17 14:58:42,512:INFO:Set up index.
+2025-03-17 14:58:52,328:INFO:Initializing load_model()
+2025-03-17 14:58:52,328:INFO:load_model(model_name=final_lithology_model_2, platform=None, authentication=None, verbose=True)
+2025-03-17 14:58:53,121:INFO:Initializing predict_model()
+2025-03-17 14:58:53,121:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000019913C692B0>, estimator=Pipeline(memory=FastMemory(location=C:\Users\Asus\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['X_LOC', 'Y_LOC', 'DEPT', 'NPHI',
+                                             'DTC', 'RHOB', 'GR', 'CALI'],
+                                    transformer=SimpleImputer(add_indicator=False...
+                 ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0,
+                                      class_weight=None, criterion='gini',
+                                      max_depth=None, max_features='sqrt',
+                                      max_leaf_nodes=None, max_samples=None,
+                                      min_impurity_decrease=0.0,
+                                      min_samples_leaf=1, min_samples_split=2,
+                                      min_weight_fraction_leaf=0.0,
+                                      monotonic_cst=None, n_estimators=100,
+                                      n_jobs=-1, oob_score=False,
+                                      random_state=42, verbose=0,
+                                      warm_start=False))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000019911BADF70>)
+2025-03-17 14:58:53,121:INFO:Checking exceptions
+2025-03-17 14:58:53,121:INFO:Preloading libraries
+2025-03-17 14:58:53,123:INFO:Set up data.
+2025-03-17 14:58:53,143:INFO:Set up index.
+2025-03-17 15:13:10,998:WARNING:C:\Users\Asus\AppData\Local\Temp\ipykernel_33500\4226393491.py:407: UserWarning: cannot convert float NaN to integer
+  warnings.warn(str(e))
+
+2025-03-17 15:13:11,033:WARNING:C:\Users\Asus\AppData\Local\Temp\ipykernel_33500\4226393491.py:407: UserWarning: cannot convert float NaN to integer
+  warnings.warn(str(e))
+
+2025-03-17 15:13:11,048:WARNING:C:\Users\Asus\AppData\Local\Temp\ipykernel_33500\4226393491.py:407: UserWarning: cannot convert float NaN to integer
+  warnings.warn(str(e))
+
+2025-03-17 15:13:11,065:WARNING:C:\Users\Asus\AppData\Local\Temp\ipykernel_33500\4226393491.py:407: UserWarning: cannot convert float NaN to integer
+  warnings.warn(str(e))
+
+2025-03-17 15:13:11,107:WARNING:C:\Users\Asus\AppData\Local\Temp\ipykernel_33500\4226393491.py:407: UserWarning: cannot convert float NaN to integer
+  warnings.warn(str(e))
+
+2025-03-17 15:13:11,146:WARNING:C:\Users\Asus\AppData\Local\Temp\ipykernel_33500\4226393491.py:407: UserWarning: cannot convert float NaN to integer
+  warnings.warn(str(e))
+
+2025-03-17 15:50:18,423:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-03-17 15:50:18,423:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-03-17 15:50:18,423:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-03-17 15:50:18,423:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-03-17 15:50:18,884:INFO:Initializing load_model()
+2025-03-17 15:50:18,884:INFO:load_model(model_name=final_lithology_model_2, platform=None, authentication=None, verbose=True)
+2025-03-17 15:50:19,483:INFO:Initializing predict_model()
+2025-03-17 15:50:19,483:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001EE6583B910>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['X_LOC', 'Y_LOC', 'DEPT', 'NPHI',
+                                             'DTC', 'RHOB', 'GR', 'CALI'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001EE29788D30>)
+2025-03-17 15:50:19,483:INFO:Checking exceptions
+2025-03-17 15:50:19,483:INFO:Preloading libraries
+2025-03-17 15:50:19,483:INFO:Set up data.
+2025-03-17 15:50:19,495:INFO:Set up index.
+2025-03-17 15:50:33,972:INFO:Initializing load_model()
+2025-03-17 15:50:33,972:INFO:load_model(model_name=final_lithology_model_2, platform=None, authentication=None, verbose=True)
+2025-03-17 15:50:34,552:INFO:Initializing predict_model()
+2025-03-17 15:50:34,552:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001EE30647D90>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['X_LOC', 'Y_LOC', 'DEPT', 'NPHI',
+                                             'DTC', 'RHOB', 'GR', 'CALI'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001EE26AEA700>)
+2025-03-17 15:50:34,552:INFO:Checking exceptions
+2025-03-17 15:50:34,552:INFO:Preloading libraries
+2025-03-17 15:50:34,552:INFO:Set up data.
+2025-03-17 15:50:34,570:INFO:Set up index.
