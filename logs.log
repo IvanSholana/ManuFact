@@ -41870,3 +41870,166 @@ ValueError: Target scores need to be probabilities for multiclass roc_auc, i.e. 
 2025-03-17 15:50:34,552:INFO:Preloading libraries
 2025-03-17 15:50:34,552:INFO:Set up data.
 2025-03-17 15:50:34,570:INFO:Set up index.
+2025-03-18 08:27:00,606:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-03-18 08:27:00,608:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-03-18 08:27:00,608:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-03-18 08:27:00,608:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-03-18 08:27:01,259:INFO:Initializing load_model()
+2025-03-18 08:27:01,259:INFO:load_model(model_name=final_lithology_model, platform=None, authentication=None, verbose=True)
+2025-03-18 08:27:25,882:INFO:Initializing load_model()
+2025-03-18 08:27:25,882:INFO:load_model(model_name=./model/final_lithology_model.pkl, platform=None, authentication=None, verbose=True)
+2025-03-18 08:27:33,528:INFO:Initializing load_model()
+2025-03-18 08:27:33,529:INFO:load_model(model_name=./model/final_lithology_model, platform=None, authentication=None, verbose=True)
+2025-03-18 08:27:34,466:INFO:Initializing predict_model()
+2025-03-18 08:27:34,466:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001DB70DF53A0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['X_LOC', 'Y_LOC', 'DEPT', 'NPHI',
+                                             'DTC', 'GR', 'CALI'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001DB6F1A8EE0>)
+2025-03-18 08:27:34,466:INFO:Checking exceptions
+2025-03-18 08:27:34,466:INFO:Preloading libraries
+2025-03-18 08:27:34,466:INFO:Set up data.
+2025-03-18 08:27:34,479:INFO:Set up index.
+2025-03-18 08:27:58,024:INFO:Initializing load_model()
+2025-03-18 08:27:58,024:INFO:load_model(model_name=./final_lithology_model_2, platform=None, authentication=None, verbose=True)
+2025-03-18 08:27:59,011:INFO:Initializing predict_model()
+2025-03-18 08:27:59,012:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001DB70337970>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['X_LOC', 'Y_LOC', 'DEPT', 'NPHI',
+                                             'DTC', 'RHOB', 'GR', 'CALI'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001DB706A9430>)
+2025-03-18 08:27:59,012:INFO:Checking exceptions
+2025-03-18 08:27:59,012:INFO:Preloading libraries
+2025-03-18 08:27:59,012:INFO:Set up data.
+2025-03-18 08:27:59,026:INFO:Set up index.
+2025-03-18 10:18:28,151:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-03-18 10:18:28,151:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-03-18 10:18:28,151:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-03-18 10:18:28,151:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-03-18 10:18:28,573:INFO:Initializing load_model()
+2025-03-18 10:18:28,573:INFO:load_model(model_name=final_lithology_model_2, platform=None, authentication=None, verbose=True)
+2025-03-18 10:41:49,624:WARNING:C:\Users\Asus\AppData\Local\Temp\ipykernel_37036\2707705587.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  test_df_over_5000['Cluster_DBSCAN'] = 11
+
+2025-03-18 10:42:53,613:WARNING:C:\Users\Asus\AppData\Local\Temp\ipykernel_37036\2456335011.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  test_df_over_5000['Cluster_DBSCAN'] = 11
+
+2025-03-18 10:44:04,972:WARNING:C:\Users\Asus\AppData\Local\Temp\ipykernel_37036\4226393491.py:407: UserWarning: cannot convert float NaN to integer
+  warnings.warn(str(e))
+
+2025-03-18 10:44:04,988:WARNING:C:\Users\Asus\AppData\Local\Temp\ipykernel_37036\4226393491.py:407: UserWarning: cannot convert float NaN to integer
+  warnings.warn(str(e))
+
+2025-03-18 10:44:05,663:WARNING:C:\Users\Asus\AppData\Local\Temp\ipykernel_37036\4226393491.py:407: UserWarning: cannot convert float NaN to integer
+  warnings.warn(str(e))
+
+2025-03-18 10:44:05,732:WARNING:C:\Users\Asus\AppData\Local\Temp\ipykernel_37036\4226393491.py:407: UserWarning: cannot convert float NaN to integer
+  warnings.warn(str(e))
+
+2025-03-18 10:44:06,094:WARNING:C:\Users\Asus\AppData\Local\Temp\ipykernel_37036\4226393491.py:407: UserWarning: cannot convert float NaN to integer
+  warnings.warn(str(e))
+
+2025-03-18 10:44:06,472:WARNING:C:\Users\Asus\AppData\Local\Temp\ipykernel_37036\4226393491.py:407: UserWarning: cannot convert float NaN to integer
+  warnings.warn(str(e))
+
+2025-03-18 10:44:06,589:WARNING:C:\Users\Asus\AppData\Local\Temp\ipykernel_37036\4226393491.py:407: UserWarning: cannot convert float NaN to integer
+  warnings.warn(str(e))
+
+2025-03-18 10:46:03,325:WARNING:C:\Users\Asus\AppData\Local\Temp\ipykernel_37036\4226393491.py:407: UserWarning: float division by zero
+  warnings.warn(str(e))
+
+2025-03-18 10:56:18,014:INFO:Initializing load_model()
+2025-03-18 10:56:18,014:INFO:load_model(model_name=final_lithology_model_2, platform=None, authentication=None, verbose=True)
+2025-03-18 10:56:18,639:INFO:Initializing predict_model()
+2025-03-18 10:56:18,639:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000025B7F593F10>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['X_LOC', 'Y_LOC', 'DEPT', 'NPHI',
+                                             'DTC', 'RHOB', 'GR', 'CALI'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000025C3009D040>)
+2025-03-18 10:56:18,639:INFO:Checking exceptions
+2025-03-18 10:56:18,639:INFO:Preloading libraries
+2025-03-18 10:56:18,639:INFO:Set up data.
+2025-03-18 10:56:18,655:INFO:Set up index.
+2025-03-18 11:10:47,049:INFO:Initializing load_model()
+2025-03-18 11:10:47,049:INFO:load_model(model_name=final_lithology_model_2, platform=None, authentication=None, verbose=True)
+2025-03-18 11:10:47,876:INFO:Initializing predict_model()
+2025-03-18 11:10:47,876:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000025B09929E80>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['X_LOC', 'Y_LOC', 'DEPT', 'NPHI',
+                                             'DTC', 'RHOB', 'GR', 'CALI'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000025B08C0B0D0>)
+2025-03-18 11:10:47,876:INFO:Checking exceptions
+2025-03-18 11:10:47,876:INFO:Preloading libraries
+2025-03-18 11:10:47,877:INFO:Set up data.
+2025-03-18 11:10:47,901:INFO:Set up index.
+2025-03-18 11:56:56,734:WARNING:C:\Users\Asus\AppData\Local\Temp\ipykernel_37036\4226393491.py:407: UserWarning: cannot convert float NaN to integer
+  warnings.warn(str(e))
+
+2025-03-18 12:10:18,998:INFO:Initializing load_model()
+2025-03-18 12:10:18,999:INFO:load_model(model_name=final_lithology_model_2, platform=None, authentication=None, verbose=True)
+2025-03-18 12:10:19,892:INFO:Initializing predict_model()
+2025-03-18 12:10:19,892:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000025B09935040>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['X_LOC', 'Y_LOC', 'DEPT', 'NPHI',
+                                             'DTC', 'RHOB', 'GR', 'CALI'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000025B1A8DDC10>)
+2025-03-18 12:10:19,892:INFO:Checking exceptions
+2025-03-18 12:10:19,892:INFO:Preloading libraries
+2025-03-18 12:10:19,892:INFO:Set up data.
+2025-03-18 12:10:19,914:INFO:Set up index.
